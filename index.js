@@ -351,8 +351,8 @@ bot.on("message", message => {
                     message.member.addRole(role)
                     message.reply("Vous avez bien reçu l'accès au NSFW")}
                 if (r.emoji.name === "❌") {
-                    message.channel.bulkDelete(1)}
-                    message.channel.send("Demande d'accès au NSFW annulée !")
+                    message.channel.bulkDelete(1)
+                    message.channel.send("Demande d'accès au NSFW annulée !")}
 
 
                     
